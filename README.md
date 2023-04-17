@@ -8,7 +8,7 @@ My second project as a web developer learning to code. This project is a currenc
 ## Screenshot:
 
 <p align="center">
-    <img src="/images/preview.gif" alt="preview">
+    <img src="/images/previev.gif" alt="preview">
 </p>
 
 ## Technologies used:
