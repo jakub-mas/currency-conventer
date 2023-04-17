@@ -1,7 +1,19 @@
-# currency-conventer
 
-## Demo
+# Currency conventer
 
-https://jakub-mas.github.io/currency-conventer/
+## Description:
 
-simple currency conventer made with js
+My second project as a web developer learning to code. This project is a currency conventer allowing to convert Polish zloty to other currencies such as Euro, Dolar, Swiss franc and Venezuelan bolívar (Exchange rates are from 04.2023)
+
+## Screenshot:
+
+<p align="center">
+    <img src="/images/preview.gif" alt="preview">
+</p>
+
+## Technologies used:
+
+- **HTML**
+- **CSS**
+- **JS**
+Website is using normalized, also classes of elements are named according to BEM convention.
