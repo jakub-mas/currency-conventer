@@ -1,7 +1,7 @@
 
 # Currency conventer
 
-## Demo
+## Demo:
 
 https://jakub-mas.github.io/currency-conventer/
 
