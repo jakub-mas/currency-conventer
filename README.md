@@ -5,7 +5,7 @@
 
 My second project as a web developer learning to code. This project is a currency conventer allowing to convert Polish zloty to other currencies such as Euro, Dolar, Swiss franc and Venezuelan bolívar (Exchange rates are from 04.2023)
 
-## Screenshot:
+## Preview:
 
 <p align="center">
     <img src="/images/previev.gif" alt="preview">
