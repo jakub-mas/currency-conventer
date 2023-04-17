@@ -16,4 +16,6 @@ My second project as a web developer learning to code. This project is a currenc
 - **HTML**
 - **CSS**
 - **JS**
-Website is using normalized, also classes of elements are named according to BEM convention.
+<p>
+    Website is using normalized, also classes of elements are named according to BEM convention.
+</p>
