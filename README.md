@@ -23,3 +23,7 @@ My second project as a web developer learning to code. This project is a currenc
 <p>
     Website is using normalized, also classes of elements are named according to BEM convention.
 </p>
+
+## Creator:
+
+Jakub Maślanka
