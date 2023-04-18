@@ -1,42 +1,39 @@
 {
-
     const calculateResult = (amount, currency) => {
-        const Dolar = 4.2813
-        const Euro = 4.6851
-        const Frank = 4.7364
-        const Boliwar = 0.0000017657
+        const rateUSD = 4.2813
+        const rateEUR = 4.6851
+        const rateCHF = 4.7364
+        const rateVEF = 0.0000017657
 
         switch (currency) {
-            case "Dolar":
-                return amount / Dolar;
+            case "USD":
+                return amount / rateUSD;
 
-            case "Euro":
-                return amount / Euro;
+            case "EUR":
+                return amount / rateEUR;
 
-            case "Frank":
-                return amount / Frank;
+            case "CHF":
+                return amount / rateCHF;
 
-            case "Boliwar":
-                return amount / Boliwar
+            case "VEF":
+                return amount / rateVEF
         }
     };
 
-    const updateResultSubmit = (result) => {
+    const updateResultText = (result) => {
         const resultElement = document.querySelector(".js-result");
-
-        resultElement.innerText = result.toFixed(2)
+        resultElement.innerText = result.toFixed(2);
 
     }
 
     const onFormSubmit = (event) => {
         event.preventDefault();
-
         const amountElement = document.querySelector(".js-amount");
         const currencyElement = document.querySelector(".js-currency");
 
         let result = calculateResult(amountElement.value, currencyElement.value);
 
-        updateResultSubmit(result);
+        updateResultText(result);
 
     }
 

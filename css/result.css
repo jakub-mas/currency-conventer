@@ -1,0 +1,7 @@
+.result {
+    font-size: 200%;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(52, 52, 52);
+    background-color: hsl(0, 0%, 99%);
+}
